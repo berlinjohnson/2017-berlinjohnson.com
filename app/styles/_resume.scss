@@ -1,0 +1,161 @@
+.resume {
+  padding: 16px;
+  padding-top: 32px;
+
+  h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .mdc-card{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .download {
+    text-align: right;
+
+    @media (max-width: 420px) {
+      text-align: center;
+    }
+  }
+}
+
+.divider {
+  margin: 28px auto;
+  width: 100px;
+  background-color: $whiteSecondary;
+  height: 1px;
+}
+
+.resume-info,
+.resume-work {
+  padding: 32px;
+}
+
+.resume-work {
+  padding-bottom: 0px;
+  padding-left: 36px;
+  flex-grow: 1;
+  color: $blackSecondary;
+
+  h1 {
+    line-height: 18px;
+    color: $blackPrimary
+  }
+
+  h2 {
+    line-height: 18px;
+    color: $blackSecondary
+  }
+}
+
+.resume-job {
+  padding-left: 32px;
+  position: relative;
+  padding-bottom: 28px;
+  border-left: 1px solid $border;
+
+  &:after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    background-color: #DE6159;
+    top: 10px;
+    left: -6px;
+    border-radius: 50%;
+  }
+
+  &:first-child {
+    &:before {
+      content: '';
+      height: 32px;
+      width: 32px;
+      position: absolute;
+      background-color: #F3C7C4;
+      top: 0;
+      left: -16px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.resume-info {
+  background-color: #607D8B;
+  color: $whiteSecondary;
+  display: flex;
+  flex-grow: 1;
+  h1 {
+    color: $white;
+  }
+}
+
+.resume-info-wrapper {
+  max-width: 204px;
+  margin: auto;
+}
+
+
+.resume-contact {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+
+  i {
+    padding-right: 12px;
+    color: $white;
+  }
+}
+
+
+.resume-info-school h2 {
+  line-height: 18px;
+}
+
+.resume-info-skills h2 {
+  color: $white;
+  display: flex;
+  align-items: center;
+
+  span {
+    flex-grow: 1;
+  }
+}
+
+.bar {
+  background-color: #455A64;
+  height: 4px;
+  width: 112px;
+  position: relative;
+
+  &:after {
+    content: '';
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+  }
+  &.bar-h {
+    &:after {
+      width: 85%;
+    }
+  }
+  &.bar-m {
+    &:after {
+      width: 70%;
+    }
+  }
+  &.bar-l {
+    &:after {
+      width: 50%;
+    }
+  }
+}

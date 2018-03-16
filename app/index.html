@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>Ali Berlin Johnson</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="mdc-toolbar mdc-toolbar--fixed">
+      <div class="header mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+            <img class="header-avatar" src="/images/avatar.png"></img>
+            <span class="header-text">
+              <h1 class="mdc-typography--headline">Ali Berlin Johnson</h1>
+              <h3 class="mdc-typography--subheading1">ux designer, illustrator, engineer</h3>
+            </span>
+        </section>
+      </div>
+      <div class="tabs mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-end">
+          <button id="portfolioNav" data-path="/" class="mdc-button mdc-button--accent is-selected">portfolio</button>
+          <button id="resumeNav" data-path="/resume/" class="mdc-button mdc-button--accent">resume</button>
+          <button id="aboutNav" data-path="/about/" class="mdc-button mdc-button--accent">about</button>
+        </section>
+      </div>
+    </header>
+
+    <!-- //canvas -->
+    <main class="mdc-toolbar-fixed-adjust">
+      <div id="projects" data-path="/" class="navigation-section projects mdc-layout-grid">
+
+        <!-- //project cards -->
+        <script id="projectCard-template" type="text/x-handlebars-template">
+          {{#each projects}}
+          <div id="{{@key}}" class="project-card mdc-card mdc-layout-grid__cell">
+            <section class="mdc-card__media" style="background-image: url('../images/projects/{{@key}}/__cover.png');"></section>
+            <section class="mdc-card__primary">
+              <h1 class="mdc-card__title mdc-card__title--large">{{name}}</h1>
+              {{#if subtitle}}
+              <h2 class="mdc-card__subtitle">{{subtitle}}</h2>
+              {{/if}}
+            </section>
+          </div>
+          {{/each}}
+        </script>
+
+      </div>
+
+      <div id="resume" data-path="/resume/" class="navigation-section resume is-hidden">
+        <div class="mdc-card">
+          <section class="resume-info">
+            <div class="resume-info-wrapper">
+              <div class="resume-info-contact">
+                <h2 class="resume-contact"><i class="material-icons">computer</i> berlinjohnson.com</h2>
+                <h2 class="resume-contact"><i class="material-icons">email</i> berlinjohnson@gmail.com</h2>
+                <h2 class="resume-contact padding-top-24"><i class="material-icons">location_on</i> San Francisco, CA</h2>
+              </div>
+              <div class="divider"></div>
+              <div class="resume-info-school">
+                <h1>MFA animation &amp; visual effects</h1>
+                <h2>Academy of Art University</h2>
+                <h2>2012-2013, in-progress</h2>
+
+                <h1 class="padding-top-16"> BS biomedical engineering</h1>
+                <h2>University of Wisconsin-Madison</h2>
+                <h2>2007-2010, 3.72 GPA</h2>
+              </div>
+              <div class="divider"></div>
+              <div class="resume-info-skills">
+                <h2><span>Illustrator</span><div class="bar bar-h"></div></h2>
+                <h2><span>Sketch</span><div class="bar bar-h"></div></h2>
+                <h2><span>Photoshop</span><div class="bar bar-m"></div></h2>
+                <h2><span>After Effects</span><div class="bar"></div></h2>
+                <h2><span>Maya</span><div class="bar"></div></h2>
+
+                <h2 class="padding-top-24"><span>HTML</span><div class="bar bar-h"></div></h2>
+                <h2><span>CSS</span><div class="bar bar-h"></div></h2>
+                <h2><span>JavaScript</span><div class="bar bar-l"></div></h2>
+                <h2><span>Angular</span><div class="bar"></div></h2>
+              </div>
+              <!-- <div class="text-center">
+                <a class="download mdc-button  mdc-button--raised mdc-button--accent"
+                href="/berlinjohnson_resume.pdf" target="_blank">
+                  download resume
+                </a>
+              </div> -->
+            </div>
+          </section>
+          <section class="resume-work">
+            <div class="download">
+              <a class="mdc-button  mdc-button--raised mdc-button--primary"
+              href="/berlinjohnson_resume.pdf" target="_blank">
+                download resume
+              </a>
+            </div>
+            <div class="padding-top-36">
+            <div class="resume-job">
+              <h1>SENIOR UX DESIGNER</h1>
+              <h2 class="color-primary">Google</h2>
+              <h2 class="padding-top-8">Firebase brand &amp; logo redesign</h2>
+              <h2>Developer console design patterns</h2>
+              <h2>Developer console illustrations (illustrator)</h2>
+              <h2>Developer console UI (develop features)</h2>
+              <h2>UX reviews &amp; critique</h2>
+              <h2>Prototyping (html, css, javascript, angular)</h2>
+              <h2 class="padding-top-8">2014 - present  •  San Francisco, CA</h2>
+            </div>
+            <div class="resume-job">
+              <h1>VISUAL DESIGNER</h1>
+              <h2 class="color-primary">Firebase</h2>
+              <h2 class="padding-top-8">Developer dashboard UI</h2>
+              <h2>Marketing website &amp; docs</h2>
+              <h2>Promotional materials (illustrator, photoshop)</h2>
+              <h2>Web development (html, css, javascript, angular)</h2>
+              <h2 class="padding-top-8">2014 •  San Francisco, CA</h2>
+              <h2>Acquired by Google</h2>
+            </div>
+
+            <div class="resume-job">
+              <h1>FREELANCE ARTIST</h1>
+              <h2 class="color-primary">berlinjohnson.com, geekfeet.wordpress.com</h2>
+              <h2 class="padding-top-8">Illustration (photoshop, illustrator)</h2>
+              <h2>Design consultation (web, print)</h2>
+              <h2>Logos &amp; icons (illustrator)</h2>
+              <h2>Custom designed shoes (hand painted)</h2>
+              <h2>Recognized by Think Geek</h2>
+              <h2 class="padding-top-8">2011 - 2013 •  San Francisco, CA</h2>
+            </div>
+
+            <div class="resume-job">
+              <h1>CARDIOVASCULAR MODELING &amp; SIMULATION ENGINEER</h1>
+              <h2 class="color-primary">Open Source Medical Software Corp</h2>
+              <h2 class="padding-top-8">3D modeling of cardio vascular system (arteries)</h2>
+              <h2>Medical illustrations (photoshop)</h2>
+              <h2>Computational blood flow simulations</h2>
+              <h2>Technical writing</h2>
+              <h2 class="padding-top-8">2011 - 2013 •  San Francisco, CA</h2>
+            </div>
+          </div>
+
+
+          </section>
+        </div>
+      </script>
+      </div>
+
+      <div id="about" data-path="/about/" class="navigation-section about is-hidden">
+        <section class="mdc-typography--display1">Who am I?</section>
+        <section class="mdc-typography--body1">
+          Currently, I am on the Firebase UX team at Google located in San Francisco.
+          I work on a wide variety of projects in Firebase, from branding &amp; illustration
+          to console interaction &amp; visual design.
+          </section>
+        <section class="mdc-typography--body1">
+          I am a designer, illustrator, and biomedical engineer who loves combining
+          creativity, science, and technology. Being a self taught designer and developer,
+          I am passionate about engaging in an enviornment where continuous learning is the norm.
+        </section>
+      </div>
+      <!-- </div> -->
+
+      <!-- //dialogs -->
+        <aside id="dialog" style="visibility:hidden" class="mdc-dialog">
+          <div id="dialogContent" class="mdc-dialog__surface">
+            <!-- //PROJECT-->
+            <script id="projectDialog-template" type="text/x-handlebars-template">
+              <header class="project-dialog-header mdc-dialog__header">
+                <div class="mdc-dialog__header__title">
+                  {{name}}
+                  {{#if subtitle}}
+                  <div class="dialog-header-subtitle mdc-typography--subheading1"> {{subtitle}} </div>
+                  {{/if}}
+                </div>
+                <button id="closeDialog" class="mdc-button close-button mdc-dialog__footer__button--cancel" type="button">
+                  <i class="material-icons mdc-dialog__footer__button--cancel">close</i>
+                </button>
+              </header>
+              {{#if description}}
+              <section class="dialog-header-description mdc-dialog__body mdc-typography--body1">
+               {{description}}
+             </section>
+              {{/if}}
+              <!-- //GALLERY -->
+              <section id="mdc-dialog-with-list-description" class="mdc-dialog__body mdc-dialog__body--scrollable">
+                <div class="mdc-grid-list">
+                   <ul class="mdc-grid-list__tiles">
+                     {{#each pieces}}
+                     <li id="{{@key}}" class="mdc-grid-tile">
+                       <div class="mdc-grid-tile__primary"
+                            style="background-image: url('../images/thumbnails/{{../project}}/{{img}}')">
+                       </div>
+                       <span class="mdc-grid-tile__secondary">
+                         <span class="mdc-grid-tile__title">{{name}}</span>
+                       </span>
+                     </li>
+                     {{/each}}
+                   </ul>
+                 </div>
+              </section>
+            </script>
+            <!-- //PIECE-->
+            <script id="pieceDialog-template" type="text/x-handlebars-template">
+              <header class="project-dialog-header mdc-dialog__header">
+                <button id="backDialog" class="mdc-button back-button" type="button">
+                  <i class="material-icons">arrow_back</i>
+                </button>
+                <h2 id="mdc-dialog-with-list-label" class="mdc-dialog__header__title">
+                  {{name}}
+                  {{#if subtitle}}
+                  <div class="dialog-header-subtitle mdc-typography--subheading1"> {{subtitle}} </div>
+                  {{/if}}
+                  {{#if description}}
+                  <div class="dialog-header-description mdc-typography--subheading1"> {{description}} </div>
+                  {{/if}}
+                </h2>
+                <button id="closeDialog" class="mdc-button close-button mdc-dialog__footer__button--cancel" type="button">
+                  <i class="material-icons mdc-dialog__footer__button--cancel">close</i>
+                </button>
+              </header>
+              <!-- //PIECE -->
+              <section id="mdc-dialog-with-list-description" class="piece-dialog-content mdc-dialog__body mdc-dialog__body--scrollable">
+                <img class="large-image" src="/images/projects/{{project}}/{{img}}" />
+                {{#each neighborImages}}
+                <img style="display: none;" src="/images/projects/{{../project}}/{{this}}" />
+                {{/each}}
+                <button class="button-left button-nav mdc-fab material-icons">
+                  <span class="mdc-fab__icon">
+                    keyboard_arrow_left
+                  </span>
+                </button>
+                <button class="button-right button-nav mdc-fab material-icons">
+                  <span class="mdc-fab__icon">
+                    keyboard_arrow_right
+                  </span>
+                </button>
+              </section>
+            </script>
+          </div>
+          <div class="mdc-dialog__backdrop"></div>
+        </aside>
+
+
+
+    </main>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyApEHC8WcRTAMJNw8pIT_AwdBg67-h7FH0",
+        authDomain: "berlinjohnson-459fb.firebaseapp.com",
+        databaseURL: "https://berlinjohnson-459fb.firebaseio.com",
+        projectId: "berlinjohnson-459fb",
+        storageBucket: "berlinjohnson-459fb.appspot.com",
+        messagingSenderId: "984870489856"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="/main.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-99944148-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </body>
+</html>

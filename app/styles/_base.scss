@@ -1,0 +1,65 @@
+@import "@material/animation/functions";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: $canvas;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+//LAYOUT
+header section {
+  max-width: 952px;
+  margin: auto;
+}
+main {
+  max-width: 984px;
+  margin: auto;
+
+  .projects,
+  .about,
+  .resume {
+    padding-top: 32px;
+
+    @media (max-width: 600px) {
+      padding-top: 16px;
+    }
+  }
+
+  .about {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+.padding-top-36 {
+  padding-top: 36px;
+}
+.padding-top-24 {
+  padding-top: 24px;
+}
+.padding-top-16 {
+  padding-top: 16px;
+}
+.padding-top-8 {
+  padding-top: 8px;
+}
+.color-primary {
+  color: $blackPrimary;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

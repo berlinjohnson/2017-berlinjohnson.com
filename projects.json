@@ -1,0 +1,861 @@
+{
+  "projects" : {
+    "001_fbLogo" : {
+      "description" : "",
+      "name" : "Firebase brand",
+      "pieces" : {
+        "01_logomark" : {
+          "img" : "01_logomark.png",
+          "name" : "Logomark",
+          "subtitle" : ""
+        },
+        "02_lockups" : {
+          "img" : "02_lockups.png",
+          "name" : "Lockups",
+          "subtitle" : ""
+        },
+        "03_color" : {
+          "img" : "03_color.png",
+          "name" : "Color",
+          "subtitle" : ""
+        },
+        "04_exConcept" : {
+          "img" : "04_exConcept.png",
+          "name" : "Early explorations",
+          "subtitle" : "logo concepts"
+        },
+        "05_exColor" : {
+          "img" : "05_exColor.png",
+          "name" : "Early explorations",
+          "subtitle" : "color"
+        },
+        "06_shape" : {
+          "img" : "06_shape.png",
+          "name" : "Early explorations",
+          "subtitle" : "shape"
+        },
+        "07_iterations" : {
+          "img" : "07_iterations.png",
+          "name" : "Final iterations",
+          "subtitle" : "shape"
+        }
+      },
+      "subtitle" : "branding, logo design"
+    },
+    "002_avatars" : {
+      "description" : "",
+      "name" : "Avatars",
+      "pieces" : {
+        "colored_Aaron" : {
+          "img" : "colored_Aaron.png",
+          "name" : "Aaron",
+          "subtitle" : ""
+        },
+        "colored_Adrien" : {
+          "img" : "colored_Adrien.png",
+          "name" : "Adrien",
+          "subtitle" : ""
+        },
+        "colored_Ali" : {
+          "img" : "colored_Ali.png",
+          "name" : "Ali",
+          "subtitle" : ""
+        },
+        "colored_Amber" : {
+          "img" : "colored_Amber.png",
+          "name" : "Amber",
+          "subtitle" : ""
+        },
+        "colored_Annie" : {
+          "img" : "colored_Annie.png",
+          "name" : "Annie",
+          "subtitle" : ""
+        },
+        "colored_Ben" : {
+          "img" : "colored_Ben.png",
+          "name" : "Ben",
+          "subtitle" : ""
+        },
+        "colored_Brian" : {
+          "img" : "colored_Brian.png",
+          "name" : "Brian",
+          "subtitle" : ""
+        },
+        "colored_Bruce" : {
+          "img" : "colored_Bruce.png",
+          "name" : "Bruce",
+          "subtitle" : ""
+        },
+        "colored_Catherine" : {
+          "img" : "colored_Catherine.png",
+          "name" : "Catherine",
+          "subtitle" : ""
+        },
+        "colored_Ces" : {
+          "img" : "colored_Ces.png",
+          "name" : "Ces",
+          "subtitle" : ""
+        },
+        "colored_Claire" : {
+          "img" : "colored_Claire.png",
+          "name" : "Claire",
+          "subtitle" : ""
+        },
+        "colored_Dave" : {
+          "img" : "colored_Dave.png",
+          "name" : "Dave",
+          "subtitle" : ""
+        },
+        "colored_Erik" : {
+          "img" : "colored_Erik.png",
+          "name" : "Erik",
+          "subtitle" : ""
+        },
+        "colored_Jess" : {
+          "img" : "colored_Jess.png",
+          "name" : "Jess",
+          "subtitle" : ""
+        },
+        "colored_Joel" : {
+          "img" : "colored_Joel.png",
+          "name" : "Joel",
+          "subtitle" : ""
+        },
+        "colored_Joey" : {
+          "img" : "colored_Joey.png",
+          "name" : "Joey",
+          "subtitle" : ""
+        },
+        "colored_Josh" : {
+          "img" : "colored_Josh.png",
+          "name" : "Josh",
+          "subtitle" : ""
+        },
+        "colored_Kat" : {
+          "img" : "colored_Kat.png",
+          "name" : "Kat",
+          "subtitle" : ""
+        },
+        "colored_KeumEun" : {
+          "img" : "colored_KeumEun.png",
+          "name" : "KeumEun",
+          "subtitle" : ""
+        },
+        "colored_Kevin" : {
+          "img" : "colored_Kevin.png",
+          "name" : "Kevin",
+          "subtitle" : ""
+        },
+        "colored_Malea" : {
+          "img" : "colored_Malea.png",
+          "name" : "Malea",
+          "subtitle" : ""
+        },
+        "colored_Maple" : {
+          "img" : "colored_Maple.png",
+          "name" : "Maple",
+          "subtitle" : ""
+        },
+        "colored_Maria" : {
+          "img" : "colored_Maria.png",
+          "name" : "Maria",
+          "subtitle" : ""
+        },
+        "colored_Martini" : {
+          "img" : "colored_Martini.png",
+          "name" : "Martini",
+          "subtitle" : ""
+        },
+        "colored_Mei" : {
+          "img" : "colored_Mei.png",
+          "name" : "Mei",
+          "subtitle" : ""
+        },
+        "colored_Mikki" : {
+          "img" : "colored_Mikki.png",
+          "name" : "Mikki",
+          "subtitle" : ""
+        },
+        "colored_Osa" : {
+          "img" : "colored_Osa.png",
+          "name" : "Osa",
+          "subtitle" : ""
+        },
+        "colored_Paul" : {
+          "img" : "colored_Paul.png",
+          "name" : "Paul",
+          "subtitle" : ""
+        },
+        "colored_Pedro" : {
+          "img" : "colored_Pedro.png",
+          "name" : "Pedro",
+          "subtitle" : ""
+        },
+        "colored_Przemek" : {
+          "img" : "colored_Przemek.png",
+          "name" : "Przemek",
+          "subtitle" : ""
+        },
+        "colored_Quinlan" : {
+          "img" : "colored_Quinlan.png",
+          "name" : "Quinlan",
+          "subtitle" : ""
+        },
+        "colored_Richie" : {
+          "img" : "colored_Richie.png",
+          "name" : "Richie",
+          "subtitle" : ""
+        },
+        "colored_Rick" : {
+          "img" : "colored_Rick.png",
+          "name" : "Rick",
+          "subtitle" : ""
+        },
+        "colored_Roman" : {
+          "img" : "colored_Roman.png",
+          "name" : "Roman",
+          "subtitle" : ""
+        },
+        "colored_Ryan" : {
+          "img" : "colored_Ryan.png",
+          "name" : "Ryan",
+          "subtitle" : ""
+        },
+        "colored_Sonakshi" : {
+          "img" : "colored_Sonakshi.png",
+          "name" : "Sonakshi",
+          "subtitle" : ""
+        },
+        "colored_Steve" : {
+          "img" : "colored_Steve.png",
+          "name" : "Steve",
+          "subtitle" : ""
+        },
+        "colored_Tiffany" : {
+          "img" : "colored_Tiffany.png",
+          "name" : "Tiffany",
+          "subtitle" : ""
+        },
+        "colored_Tim" : {
+          "img" : "colored_Tim.png",
+          "name" : "Tim",
+          "subtitle" : ""
+        },
+        "colored_Tony" : {
+          "img" : "colored_Tony.png",
+          "name" : "Tony",
+          "subtitle" : ""
+        },
+        "colored_Zewen" : {
+          "img" : "colored_Zewen.png",
+          "name" : "Zewen",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "illustration"
+    },
+    "003_fbIllios" : {
+      "description" : "",
+      "name" : "Firebase illustrations",
+      "pieces" : {
+        "0_Awords" : {
+          "img" : "0_Awords.png",
+          "name" : "AdWords",
+          "subtitle" : ""
+        },
+        "Analytics" : {
+          "img" : "Analytics.png",
+          "name" : "Analytics",
+          "subtitle" : ""
+        },
+        "AppIndexing" : {
+          "img" : "AppIndexing.png",
+          "name" : "App Indexing",
+          "subtitle" : ""
+        },
+        "Auth" : {
+          "img" : "Auth.png",
+          "name" : "Auth",
+          "subtitle" : ""
+        },
+        "CloudMsg" : {
+          "img" : "CloudMsg.png",
+          "name" : "Cloud Messaging",
+          "subtitle" : ""
+        },
+        "Config" : {
+          "img" : "Config.png",
+          "name" : "Config",
+          "subtitle" : ""
+        },
+        "Crash_pending" : {
+          "img" : "Crash_pending.png",
+          "name" : "Crash Pending",
+          "subtitle" : ""
+        },
+        "Crash" : {
+          "img" : "Crash.png",
+          "name" : "Crash",
+          "subtitle" : ""
+        },
+        "Database_all" : {
+          "img" : "Database_all.png",
+          "name" : "Database",
+          "subtitle" : ""
+        },
+        "Database_backups" : {
+          "img" : "Database_backups.png",
+          "name" : "Database Backups",
+          "subtitle" : ""
+        },
+        "Dynamic_links" : {
+          "img" : "Dynamic_links.png",
+          "name" : "Dynamic Links",
+          "subtitle" : ""
+        },
+        "Functions" : {
+          "img" : "Functions.png",
+          "name" : "Functions",
+          "subtitle" : ""
+        },
+        "Hosting" : {
+          "img" : "Hosting.png",
+          "name" : "Hosting",
+          "subtitle" : ""
+        },
+        "Notifications" : {
+          "img" : "Notifications.png",
+          "name" : "Notifications",
+          "subtitle" : ""
+        },
+        "Performance" : {
+          "img" : "Performance.png",
+          "name" : "Performance",
+          "subtitle" : ""
+        },
+        "Storage" : {
+          "img" : "Storage.png",
+          "name" : "Storage",
+          "subtitle" : ""
+        },
+        "Test_lab" : {
+          "img" : "Test_lab.png",
+          "name" : "Test Lab",
+          "subtitle" : ""
+        },
+        "z_grow" : {
+          "img" : "z_grow.png",
+          "name" : "Grow",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "illustration, branding"
+    },
+    "004_console" : {
+      "description" : "",
+      "name" : "Firebase console",
+      "pieces" : {
+        "01_messaging" : {
+          "img" : "01_messaging.png",
+          "name" : "Messaging",
+          "subtitle" : ""
+        },
+        "02_toasts" : {
+          "img" : "02_toasts.png",
+          "name" : "Toasts",
+          "subtitle" : ""
+        },
+        "03_forms" : {
+          "img" : "03_forms.png",
+          "name" : "Forms",
+          "subtitle" : ""
+        },
+        "04_dialogs" : {
+          "img" : "04_dialogs.png",
+          "name" : "Dialogs",
+          "subtitle" : ""
+        },
+        "05_usage" : {
+          "img" : "05_usage.png",
+          "name" : "Usage",
+          "subtitle" : ""
+        },
+        "06_color" : {
+          "img" : "06_color.png",
+          "name" : "Color",
+          "subtitle" : ""
+        },
+        "07_console_usage" : {
+          "img" : "07_console_usage.png",
+          "name" : "Console Usage",
+          "subtitle" : ""
+        },
+        "08_console_overview" : {
+          "img" : "08_console_overview.png",
+          "name" : "Console Overview",
+          "subtitle" : ""
+        },
+        "09_console_backups" : {
+          "img" : "09_console_backups.png",
+          "name" : "Console Backups",
+          "subtitle" : ""
+        },
+        "10_console_simulator_run" : {
+          "img" : "10_console_simulator_run.png",
+          "name" : "Console Simulator Run",
+          "subtitle" : ""
+        },
+        "11_console_storage_buckets" : {
+          "img" : "11_console_storage_buckets.png",
+          "name" : "Console Storage Buckets",
+          "subtitle" : ""
+        },
+        "12_console_storage_buckets_create" : {
+          "img" : "12_console_storage_buckets_create.png",
+          "name" : "Console Storage Buckets Create",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "interaction & visual design"
+    },
+    "005_diaryComics" : {
+      "description" : "",
+      "name" : "Diary comics",
+      "pieces" : {
+        "01_landsEnd" : {
+          "img" : "01_landsEnd.png",
+          "name" : "Lands End",
+          "subtitle" : ""
+        },
+        "02_home" : {
+          "img" : "02_home.jpg",
+          "name" : "Home",
+          "subtitle" : ""
+        },
+        "03_bakerBeach" : {
+          "img" : "03_bakerBeach.png",
+          "name" : "Baker Beach",
+          "subtitle" : ""
+        },
+        "04_pitaComic" : {
+          "img" : "04_pitaComic.jpg",
+          "name" : "Pita Comic",
+          "subtitle" : ""
+        },
+        "05_angry" : {
+          "img" : "05_angry.gif",
+          "name" : "Angry",
+          "subtitle" : ""
+        },
+        "06_family" : {
+          "img" : "06_family.jpg",
+          "name" : "Family",
+          "subtitle" : ""
+        },
+        "07_youngArtist" : {
+          "img" : "07_youngArtist.png",
+          "name" : "Young Artist",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "illustration"
+    },
+    "006_book" : {
+      "description" : "Valentine's Day book I wrote, illustrated and printed for my husband",
+      "name" : "'I Love You' book",
+      "pieces" : {
+        "00_pattern" : {
+          "img" : "00_pattern.jpg",
+          "name" : "Heart pattern",
+          "subtitle" : "front endpaper"
+        },
+        "00_title" : {
+          "img" : "00_title.jpg",
+          "name" : "I Love You",
+          "subtitle" : "title page"
+        },
+        "01_morning" : {
+          "img" : "01_morning.jpg",
+          "name" : "Morning",
+          "subtitle" : "pg 1"
+        },
+        "02_night" : {
+          "img" : "02_night.jpg",
+          "name" : "Night",
+          "subtitle" : "pg 2"
+        },
+        "03_fight" : {
+          "img" : "03_fight.jpg",
+          "name" : "Fight",
+          "subtitle" : "pg 3"
+        },
+        "04_snuggle" : {
+          "img" : "04_snuggle.jpg",
+          "name" : "Snuggle",
+          "subtitle" : "pg 4"
+        },
+        "05_hug" : {
+          "img" : "05_hug.jpg",
+          "name" : "Hug",
+          "subtitle" : "pg 5"
+        },
+        "06_pug" : {
+          "img" : "06_pug.jpg",
+          "name" : "Pug",
+          "subtitle" : "pg 6"
+        },
+        "07_naked" : {
+          "img" : "07_naked.jpg",
+          "name" : "Naked",
+          "subtitle" : "pg 7"
+        },
+        "08_clothed" : {
+          "img" : "08_clothed.jpg",
+          "name" : "Clothed",
+          "subtitle" : "pg 8"
+        },
+        "09_old" : {
+          "img" : "09_old.jpg",
+          "name" : "Old",
+          "subtitle" : "pg 9"
+        },
+        "10_with" : {
+          "img" : "10_with.jpg",
+          "name" : "With me",
+          "subtitle" : "pg 10"
+        },
+        "11_not" : {
+          "img" : "11_not.jpg",
+          "name" : "Not",
+          "subtitle" : "pg 10"
+        },
+        "12_love" : {
+          "img" : "12_love.jpg",
+          "name" : "Love you too",
+          "subtitle" : "pg 12"
+        },
+        "13_yours" : {
+          "img" : "13_yours.jpg",
+          "name" : "I'm yours",
+          "subtitle" : "pg 13"
+        },
+        "14_mine" : {
+          "img" : "14_mine.jpg",
+          "name" : "You're mine",
+          "subtitle" : "pg 14"
+        },
+        "15_valentine" : {
+          "img" : "15_valentine.jpg",
+          "name" : "Be my Valentine",
+          "subtitle" : "pg 15"
+        },
+        "16_pattern" : {
+          "img" : "16_pattern.jpg",
+          "name" : "Heart pattern",
+          "subtitle" : "endpaper"
+        }
+      },
+      "subtitle" : "author, illustration"
+    },
+    "007_anatomy" : {
+      "description" : "",
+      "name" : "Anatomy",
+      "pieces" : {
+        "01_skeletal" : {
+          "img" : "01_skeletal.png",
+          "name" : "Skeletal",
+          "subtitle" : ""
+        },
+        "02_circulatory" : {
+          "img" : "02_circulatory.png",
+          "name" : "Circulatory",
+          "subtitle" : ""
+        },
+        "03_anatomy" : {
+          "img" : "03_anatomy.gif",
+          "name" : "Anatomy",
+          "subtitle" : ""
+        },
+        "04_anatomy2" : {
+          "img" : "04_anatomy2.gif",
+          "name" : "Anatomy",
+          "subtitle" : ""
+        },
+        "05_cerebral" : {
+          "img" : "05_cerebral.jpg",
+          "name" : "Cerebral",
+          "subtitle" : ""
+        },
+        "06_fullBody" : {
+          "img" : "06_fullBody.jpg",
+          "name" : "Full Body",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "illustration"
+    },
+    "008_humanFigure" : {
+      "description" : "",
+      "name" : "Human figure",
+      "pieces" : {
+        "01_fHead" : {
+          "img" : "01_fHead.jpg",
+          "name" : "Female Head",
+          "subtitle" : ""
+        },
+        "02_fHead" : {
+          "img" : "02_fHead.jpg",
+          "name" : "Female Head",
+          "subtitle" : ""
+        },
+        "03_mHead" : {
+          "img" : "03_mHead.jpg",
+          "name" : "Male Head",
+          "subtitle" : ""
+        },
+        "04_mHead" : {
+          "img" : "04_mHead.jpg",
+          "name" : "Male Head",
+          "subtitle" : ""
+        },
+        "05_fTorso" : {
+          "img" : "05_fTorso.jpg",
+          "name" : "Female Torso",
+          "subtitle" : ""
+        },
+        "06_fTorso" : {
+          "img" : "06_fTorso.jpg",
+          "name" : "Female Torso",
+          "subtitle" : ""
+        },
+        "07_fSittingChair" : {
+          "img" : "07_fSittingChair.jpg",
+          "name" : "Female Sitting Chair",
+          "subtitle" : ""
+        },
+        "08_fSitting" : {
+          "img" : "08_fSitting.jpg",
+          "name" : "Female Sitting",
+          "subtitle" : ""
+        },
+        "09_fSittingStaff" : {
+          "img" : "09_fSittingStaff.jpg",
+          "name" : "Female Sitting Staff",
+          "subtitle" : ""
+        },
+        "10_mStanding" : {
+          "img" : "10_mStanding.jpg",
+          "name" : "Male Standing",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "sculpture, drawing"
+    },
+    "009_shoes" : {
+      "description" : "",
+      "name" : "Shoes",
+      "pieces" : {
+        "01_pie" : {
+          "img" : "01_pie.jpg",
+          "name" : "Pie",
+          "subtitle" : ""
+        },
+        "02_hobbit" : {
+          "img" : "02_hobbit.jpg",
+          "name" : "Hobbit",
+          "subtitle" : ""
+        },
+        "03_DrWho" : {
+          "img" : "03_DrWho.jpg",
+          "name" : "Doctor Who",
+          "subtitle" : ""
+        },
+        "04_rainbows" : {
+          "img" : "04_rainbows.jpg",
+          "name" : "Rainbows",
+          "subtitle" : ""
+        },
+        "05_dobby" : {
+          "img" : "05_dobby.jpg",
+          "name" : "Dobby",
+          "subtitle" : ""
+        },
+        "06_cloudHeels" : {
+          "img" : "06_cloudHeels.jpg",
+          "name" : "Cloud Heels",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "painting"
+    },
+    "010_3d" : {
+      "description" : "",
+      "name" : "3D",
+      "pieces" : {
+        "01_girl" : {
+          "img" : "01_girl.png",
+          "name" : "Girl",
+          "subtitle" : ""
+        },
+        "02_boots" : {
+          "img" : "02_boots.png",
+          "name" : "Boots",
+          "subtitle" : ""
+        },
+        "03_girl" : {
+          "img" : "03_girl.png",
+          "name" : "Girl",
+          "subtitle" : ""
+        },
+        "04_bedroom" : {
+          "img" : "04_bedroom.png",
+          "name" : "Bedroom",
+          "subtitle" : ""
+        },
+        "05_bedroom" : {
+          "img" : "05_bedroom.png",
+          "name" : "Bedroom",
+          "subtitle" : ""
+        },
+        "06_giraffe" : {
+          "img" : "06_giraffe.png",
+          "name" : "Giraffe",
+          "subtitle" : ""
+        },
+        "07_giraffe" : {
+          "img" : "07_giraffe.png",
+          "name" : "Giraffe",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "modeling, lighting, texturing"
+    },
+    "011_misc" : {
+      "description" : "",
+      "name" : "Grab bag",
+      "pieces" : {
+        "01_angular" : {
+          "img" : "01_angular.png",
+          "name" : "Angular",
+          "subtitle" : ""
+        },
+        "02_ngconf" : {
+          "img" : "02_ngconf.png",
+          "name" : "ngconf",
+          "subtitle" : ""
+        },
+        "03_clouds" : {
+          "img" : "03_clouds.png",
+          "name" : "Clouds",
+          "subtitle" : ""
+        },
+        "04_polar" : {
+          "img" : "04_polar.png",
+          "name" : "Polar",
+          "subtitle" : ""
+        },
+        "05_bttf" : {
+          "img" : "05_bttf.png",
+          "name" : "Back To The Future",
+          "subtitle" : ""
+        },
+        "06_gameboy" : {
+          "img" : "06_gameboy.png",
+          "name" : "Gameboy",
+          "subtitle" : ""
+        },
+        "07_cactus" : {
+          "img" : "07_cactus.png",
+          "name" : "Cactus",
+          "subtitle" : ""
+        },
+        "08_loveWitch" : {
+          "img" : "08_loveWitch.jpg",
+          "name" : "Love Witch",
+          "subtitle" : ""
+        },
+        "09_nateAndLaura" : {
+          "img" : "09_nateAndLaura.jpg",
+          "name" : "Nate And Laura",
+          "subtitle" : ""
+        },
+        "10_weddingBanner" : {
+          "img" : "10_weddingBanner.jpg",
+          "name" : "Wedding Banner",
+          "subtitle" : ""
+        },
+        "11_group" : {
+          "img" : "11_group.png",
+          "name" : "Group",
+          "subtitle" : ""
+        },
+        "12_experts" : {
+          "img" : "12_experts.png",
+          "name" : "Experts",
+          "subtitle" : ""
+        },
+        "13_lines" : {
+          "img" : "13_lines.png",
+          "name" : "Lines",
+          "subtitle" : ""
+        },
+        "14_cookies" : {
+          "img" : "14_cookies.png",
+          "name" : "Cookies",
+          "subtitle" : ""
+        },
+        "15_doodle" : {
+          "img" : "15_doodle.jpg",
+          "name" : "Doodle",
+          "subtitle" : ""
+        },
+        "16_partyCorgi" : {
+          "img" : "16_partyCorgi.png",
+          "name" : "Party Corgi",
+          "subtitle" : ""
+        },
+        "17_pita" : {
+          "img" : "17_pita.jpg",
+          "name" : "Pita",
+          "subtitle" : ""
+        },
+        "18_cat" : {
+          "img" : "18_cat.jpg",
+          "name" : "Cat",
+          "subtitle" : ""
+        },
+        "19_husband" : {
+          "img" : "19_husband.jpg",
+          "name" : "Husband",
+          "subtitle" : ""
+        },
+        "20_weekend" : {
+          "img" : "20_weekend.jpg",
+          "name" : "Weekend",
+          "subtitle" : ""
+        },
+        "21_roar" : {
+          "img" : "21_roar.gif",
+          "name" : "Roar",
+          "subtitle" : ""
+        },
+        "22_greenShadowIcons" : {
+          "img" : "22_greenShadowIcons.png",
+          "name" : "Green Shadow Icons",
+          "subtitle" : ""
+        },
+        "23_launch" : {
+          "img" : "23_launch.png",
+          "name" : "Launch",
+          "subtitle" : ""
+        },
+        "24_stations" : {
+          "img" : "24_stations.png",
+          "name" : "Stations",
+          "subtitle" : ""
+        }
+      },
+      "subtitle" : "doodles, logo design, illustration"
+    }
+  }
+}
